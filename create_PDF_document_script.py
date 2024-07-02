@@ -24,17 +24,17 @@ with a continuous declining trend"""
 pdf.multi_cell(w=0,h=50,txt=txt1)
 
 pdf.set_font(family="Times", style="B", size=14)
-pdf.cell(w=100,h=15, txt='KINGDOM:')
+pdf.cell(w=100,h=25, txt='KINGDOM:')
 
 pdf.set_font(family="Times", size=14)
-pdf.cell(w=100,h=15, txt='Animalia', ln=1)
+pdf.cell(w=100,h=25, txt='Animalia', ln=1)
 
 
 pdf.set_font(family="Times", size=14)
-pdf.cell(w=100,h=15, txt='Phylum', ln=1)
+pdf.cell(w=100,h=25, txt='Phylum', ln=1)
 
 pdf.set_font(family="Times", size=14)
-pdf.cell(w=100,h=15, txt='Chordata', ln=1)
+pdf.cell(w=100,h=25, txt='Chordata', ln=1)
 
 
 
